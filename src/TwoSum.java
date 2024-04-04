@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+
+// TIME COMPLEXITY  = O(n^2)
+
 public class TwoSum {
 	public static int[] twoSum(int arr[], int n, int target) {
 		for (int i = 0; i < arr.length; i++) {
